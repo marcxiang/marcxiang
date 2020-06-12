@@ -1,0 +1,25 @@
+h1.titre{
+	color: orange;
+	font-size:70px;
+	padding-left:345px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+    background-color:red;
+    padding: 8px
+
+}
+
+nav ul li:hover a{
+	color: red;
+	background-color:white;
+	transition: 0.4s all;
+}
